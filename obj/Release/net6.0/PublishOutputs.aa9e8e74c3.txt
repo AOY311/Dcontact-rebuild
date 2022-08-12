@@ -1,0 +1,8 @@
+D:\STUDI\Spring2022\PRN211\Lab2\DContact\obj\Release\net6.0\PubTmp\Out\SignalRChat.exe
+D:\STUDI\Spring2022\PRN211\Lab2\DContact\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\STUDI\Spring2022\PRN211\Lab2\DContact\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\STUDI\Spring2022\PRN211\Lab2\DContact\obj\Release\net6.0\PubTmp\Out\libman.json
+D:\STUDI\Spring2022\PRN211\Lab2\DContact\obj\Release\net6.0\PubTmp\Out\SignalRChat.dll
+D:\STUDI\Spring2022\PRN211\Lab2\DContact\obj\Release\net6.0\PubTmp\Out\SignalRChat.deps.json
+D:\STUDI\Spring2022\PRN211\Lab2\DContact\obj\Release\net6.0\PubTmp\Out\SignalRChat.runtimeconfig.json
+D:\STUDI\Spring2022\PRN211\Lab2\DContact\obj\Release\net6.0\PubTmp\Out\SignalRChat.pdb

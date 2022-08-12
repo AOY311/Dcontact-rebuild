@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DContact</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/DContact.styles.css" asp-append-version="true" />
+    @await RenderSectionAsync("Styles", required: false)
+</head>
+<body>
+
+    <header>
+        <div class="header_container">
+            <div class="header_container--left">
+                <a href="#"><img src="~/resource/logo/logo_full.svg" alt="logo"></a>
+            </div>
+            <div class="header_container--right">
+                <div class="header_button">
+                    <a class="button-3" href="login">Sign Up</a>
+                </div>
+                @if (@ViewData["Title"].ToString() != "Login")
+                {
+                <a class="button-3" href="login">Login</a>
+                }
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div>
+            &copy; 2022 - DContact - <a asp-area="" asp-page="/Privacy">Privacy</a> 
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

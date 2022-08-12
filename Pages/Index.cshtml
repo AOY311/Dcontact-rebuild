@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+
+@{
+    ViewData["Title"] = "Home";
+}
+@section Styles{
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+ }
+
+<div class="container">
+    <div class="menu">
+        <span class="home-title">WELCOME TO DCONTACT & DCARD</span>
+        <p class="home-desc">SHARE YOUR CONTACT - EASILY CONNECT WITH EVERYONE</p>
+    </div>
+</div>
+
+<div class="home-modal"></div>
+    <script src="~/js/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/chat.js"></script>
